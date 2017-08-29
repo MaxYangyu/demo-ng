@@ -50,6 +50,7 @@ header .row > .jfc {
   border-radius: 12px;
 }
 header .row > .jfc > span {
+  letter-spacing: 0.05rem;
   font-family: number-font;
   padding-top: 0.75rem;
   padding-bottom: 0.45rem;
@@ -115,7 +116,6 @@ header .phb-list .first img:nth-child(1) {
   height: 1.28rem;
   margin: 0 auto;
   border-radius: 64px;
-  border: 0.02rem solid #C4C4C4;
   position: relative;
   z-index: 5;
 }
@@ -233,7 +233,7 @@ header .phb-list .list-end .number .number-img {
   line-height: 1.05rem;
   position: absolute;
   border-radius: 64px;
-  border: 0.03rem solid #fe2ee0;
+  border: 0.02rem solid #fe2ee0;
   height: 0.74rem;
   width: 0.74rem;
   top: 16%;
