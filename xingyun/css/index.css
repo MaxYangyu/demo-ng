@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'number-1';
-  src: url('../font/AkzidenzGrotesk-BoldCond.otf') format('OpenType');
-  font-weight: normal;
-  font-style: normal;
-}
-header {
-  overflow: hidden;
-}
 header .head {
   position: relative;
 }
@@ -21,7 +12,7 @@ header .BP img {
   width: 3.21rem;
   position: absolute;
   right: 25%;
-  top: -0.51rem;
+  top: -0.4rem;
   z-index: 999;
 }
 header .row {
@@ -33,9 +24,6 @@ header .row > .jfc {
   width: 6rem;
   height: 4.07rem;
   border-radius: 12px;
-}
-header .row > .jfc .number span {
-  font-family: 'number-1';
 }
 header .row > .jfc img {
   position: relative;
@@ -104,86 +92,46 @@ header .phb-list {
   margin: 0 auto;
   border-radius: 12px;
 }
-header .phb-list .nav-tabs li:nth-child(1) a {
-  text-align: center;
-  padding: 0;
-  background-color: #5021A6;
-  border: 0.03rem solid #c000ff;
-  width: 1.84rem;
-  height: 0.52rem;
-  line-height: 0.45rem;
-  padding-left: 0.2rem;
-  color: #fff;
-  border-radius: 0.28rem 0  0 0.28rem;
-}
-header .phb-list .nav-tabs li:nth-child(2) a {
-  color: #c000ff;
-  text-align: center;
-  background-color: #5021A6;
-  border-radius: 0 0.28rem 0.28rem 0;
-  width: 1.84rem;
-  height: 0.52rem;
-  border: 0.03rem solid #c000ff;
-  line-height: 0.45rem;
-  padding: 0;
-}
-header .phb-list .nav-tabs li a {
-  margin-right: 0;
-}
-header .phb-list .nav-tabs li.active a:hover {
-  margin: 0;
-  color: #fff;
-  background-color: #c000ff;
-  border: 0.03rem solid #c000ff;
-  border-bottom-color: transparent;
-  width: 1.84rem;
-  height: 0.52rem;
-  line-height: 0.45rem;
-}
-header .phb-list .tab-content {
-  padding-top: 0.45rem;
-}
 header .phb-list .box {
   position: relative;
+  margin-top: 20px;
 }
 header .phb-list .box span:nth-child(1) {
-  margin-left: .35rem;
+  margin-left: .25rem;
   margin-top: 25px;
   text-align: center;
   background-color: #BF00FF;
   display: inline-block;
-  width: 0.35rem;
-  height: 0.35rem;
+  width: 34px;
+  height: 34px;
   border-radius: 34px;
-  line-height: 0.35rem;
+  line-height: 34px;
   color: #fff;
 }
 header .phb-list .box span:nth-child(2) img:nth-child(1) {
-  margin-left: 0.4rem;
+  margin-left: 16px;
   display: inline-block;
-  width: 0.84rem;
-  height: 0.84rem;
-  border-radius: 0.42rem;
-  border: 0.02rem solid #BF00FF;
+  width: 1rem;
+  border-radius: 42px;
+  border: 2px solid #BF00FF;
 }
 header .phb-list .box span:nth-child(2) img:nth-child(2) {
-  left: 1.7rem;
+  left: 1.78rem;
   position: relative;
-  width: .3rem;
-  height: 0.25rem;
-  top: -0.95rem;
+  width: .5rem;
+  top: -1.18rem;
 }
 header .phb-list .box span:nth-child(3) {
   position: absolute;
-  top: .52rem;
-  left: 2.35rem;
+  top: .62rem;
+  left: 2.48rem;
   font-size: .24rem;
   color: #fff;
 }
 header .phb-list .box span:nth-child(4) {
   position: absolute;
-  top: .52rem;
-  left: 4.85rem;
+  top: .62rem;
+  left: 4.7rem;
   font-size: .24rem;
   color: #fff;
 }
@@ -221,18 +169,17 @@ header .phb-list #profile img:nth-child(1) {
   margin: 0 auto;
   width: 1.5rem;
   border-radius: 64px;
-  border: 0.02rem solid #BF00FF;
+  border: 2px solid #c00057;
   display: inline-block;
 }
 header .phb-list #profile img:nth-child(2) {
   position: absolute;
   width: .61rem;
-  top: -0.25rem;
+  top: .6rem;
   left: 3.2rem;
 }
 header .phb-list #profile p {
   color: #fff;
-  margin: 0;
   font-size: .3rem;
 }
 header .phb-list #profile span {
@@ -246,14 +193,12 @@ header .phb-list #profile .last {
   padding-bottom: 10px ;
 }
 header .phb-list .more {
-  margin-top: 0.6rem;
   height: .85rem;
   text-align: center;
   line-height: .85rem;
   color: #fff;
   background-color: #7327c9;
-  border-radius: 0  0 0.12rem 0.12rem;
-  margin-bottom: 0;
+  border-radius: 12px;
 }
 header .info {
   margin: 0 auto;
@@ -261,8 +206,7 @@ header .info {
   color: #fff;
   text-align: center;
   font-size: 0.24rem;
-  padding-top: 0.15rem;
-  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
 }
 header .footer {
   position: relative;
@@ -277,7 +221,7 @@ header .footer img {
   line-height: 1.41rem;
   width: 1.06rem;
   border-radius: 64px;
-  border: 0.02rem solid #BF00FF;
+  border: 2px solid #c00057;
 }
 header .footer p {
   margin-left: 1.82rem;
