@@ -109,6 +109,36 @@ header .phb-list .first {
   padding-top: 0.55rem;
   margin: 0 auto;
   position: relative;
+  /* span{
+        padding-left: 1.85rem;
+        font-size: 0.24rem;
+        color: #af28ff;
+        display: table;
+        table-layout: fixed;
+
+
+      }
+      span:nth-child(even) {
+        padding-left: 1.85rem;
+        display: table;
+        table-layout: fixed;
+        !*padding-top: 0.3rem;*!
+      }*/
+}
+header .phb-list .first .first-one {
+  margin-left: 2.1rem;
+  display: inline-block;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+header .phb-list .first .first-one span {
+  font-size: 0.24rem;
+  color: #af28ff;
+  display: table;
+}
+header .phb-list .first .first-one span:nth-child(2) {
+  display: flex;
 }
 header .phb-list .first img:nth-child(1) {
   background-color: #f0f0f0;
@@ -132,19 +162,6 @@ header .phb-list .first img:nth-child(3) {
   top: 1.25rem;
   left: 1.85rem;
 }
-header .phb-list .first span {
-  padding-left: 1.85rem;
-  font-size: 0.24rem;
-  color: #af28ff;
-  display: table;
-  table-layout: fixed;
-}
-header .phb-list .first span:nth-child(even) {
-  padding-left: 1.85rem;
-  display: table;
-  table-layout: fixed;
-  padding-top: 0.3rem;
-}
 header .phb-list .first p {
   color: #A7A7A7;
   text-align: center;
@@ -157,12 +174,17 @@ header .phb-list .list {
   background-color: #fff;
   margin: 0 auto;
   border-radius: 12px;
+  /*span:nth-child(even) {
+        display: table;
+        table-layout: fixed;
+        padding-top: 0.3rem;
+      }*/
 }
 header .phb-list .list i {
   width: 10px;
 }
 header .phb-list .list > .left {
-  width: 2.55rem;
+  width: 2.6rem;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -173,7 +195,7 @@ header .phb-list .list > .left p {
   padding: 0;
   color: #A7A7A7;
   text-align: center;
-  margin-top: 0.665rem;
+  margin-top: 0.6rem;
 }
 header .phb-list .list > .left img:nth-child(1) {
   margin: 0 auto;
@@ -198,7 +220,7 @@ header .phb-list .list > .left img:nth-child(3) {
   height: 0.45rem;
 }
 header .phb-list .list > .right {
-  width: 2.55rem;
+  width: 2.6rem;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -237,11 +259,6 @@ header .phb-list .list span {
   display: flex;
   font-size: 0.24rem;
   color: #af28ff;
-}
-header .phb-list .list span:nth-child(even) {
-  display: table;
-  table-layout: fixed;
-  padding-top: 0.3rem;
 }
 header .phb-list .list-end {
   padding-top: 0.4rem;
