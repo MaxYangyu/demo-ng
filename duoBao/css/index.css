@@ -132,6 +132,19 @@ header .phb-list .first img:nth-child(3) {
   top: 1.25rem;
   left: 1.85rem;
 }
+header .phb-list .first span {
+  padding-left: 1.85rem;
+  font-size: 0.24rem;
+  color: #af28ff;
+  display: table;
+  table-layout: fixed;
+}
+header .phb-list .first span:nth-child(even) {
+  padding-left: 1.85rem;
+  display: table;
+  table-layout: fixed;
+  padding-top: 0.3rem;
+}
 header .phb-list .first p {
   color: #A7A7A7;
   text-align: center;
@@ -226,7 +239,8 @@ header .phb-list .list span {
   color: #af28ff;
 }
 header .phb-list .list span:nth-child(even) {
-  display: block;
+  display: table;
+  table-layout: fixed;
   padding-top: 0.3rem;
 }
 header .phb-list .list-end {
