@@ -149,10 +149,18 @@ header .phb-list .list i {
   width: 10px;
 }
 header .phb-list .list > .left {
+  width: 2.55rem;
   text-align: center;
   display: inline-block;
   position: relative;
   margin-left: 0.2rem;
+}
+header .phb-list .list > .left p {
+  margin: 0;
+  padding: 0;
+  color: #A7A7A7;
+  text-align: center;
+  margin-top: 0.665rem;
 }
 header .phb-list .list > .left img:nth-child(1) {
   margin: 0 auto;
@@ -177,10 +185,18 @@ header .phb-list .list > .left img:nth-child(3) {
   height: 0.45rem;
 }
 header .phb-list .list > .right {
+  width: 2.55rem;
   text-align: center;
   display: inline-block;
   position: relative;
   margin-left: 0.5rem;
+}
+header .phb-list .list > .right p {
+  margin: 0;
+  padding: 0;
+  color: #A7A7A7;
+  text-align: center;
+  margin-top: 0.665rem;
 }
 header .phb-list .list > .right img:nth-child(1) {
   margin: 0  auto;
@@ -210,7 +226,7 @@ header .phb-list .list span {
   color: #af28ff;
 }
 header .phb-list .list span:nth-child(even) {
-  display: flex;
+  display: block;
   padding-top: 0.3rem;
 }
 header .phb-list .list-end {
