@@ -179,7 +179,7 @@ header .phb-list .box span:nth-child(3) {
 header .phb-list .box span:nth-child(4) {
   position: absolute;
   top: .52rem;
-  left: 4.85rem;
+  left: 4.25rem;
   font-size: .24rem;
   color: #ff3971;
 }
@@ -203,7 +203,7 @@ header .phb-list .paim span:nth-child(3) {
   padding-left: 1rem;
 }
 header .phb-list .paim span:nth-child(4) {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 header .phb-list .paim span {
   color: #fa9811;
@@ -256,7 +256,7 @@ header .phb-list #profile .box span:nth-child(3) {
 header .phb-list #profile .box span:nth-child(4) {
   position: absolute;
   top: .52rem;
-  left: 4.85rem;
+  left: 4.25rem;
   font-size: .24rem;
   color: #ff3971;
 }
@@ -280,7 +280,7 @@ header .phb-list #profile .paim span:nth-child(3) {
   padding-left: 1rem;
 }
 header .phb-list #profile .paim span:nth-child(4) {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 header .phb-list #profile .paim span {
   color: #fa9811;
